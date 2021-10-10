@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu";
+  background: #4a403a;
+}
+
+.box {
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #191919;
+  text-align: center;
+  box-shadow: 6px 6px 6px #ffffff, -6px -6px 6px #ffffff;
+}
+
+.box h1 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.box input[type="text"],
+.box input[type="password"] {
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #a45d5d;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 30px;
+  font-size: 16px;
+  transition: 0.25s;
+}
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+  width: 280px;
+  border-color: #ffc069;
+}
+
+.box input[type="submit"] {
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #ffc069;
+  padding: 10px 40px;
+  outline: none;
+  color: white;
+  border-radius: 30px;
+  font-size: 16px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.box input[type="submit"]:hover {
+  background: #ffc069;
+  color: #000;
+}
